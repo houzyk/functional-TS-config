@@ -2,13 +2,12 @@
   "name": "functional-TS-config",
   "version": "1.0.0",
   "description": "Configurations for TypeScript that only allows for functional patterns",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "compile": "tsc",
     "lint": "eslint . --ext .ts"
   },
-  "keywords": [],
-  "author": "",
+  "author": "Houzair Koussa",
   "license": "ISC",
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^5.25.0",
