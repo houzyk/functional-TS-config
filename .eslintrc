@@ -2,12 +2,25 @@
   "root": true,
   "parser": "@typescript-eslint/parser",
   "plugins": [
-    "@typescript-eslint"
+    "@typescript-eslint",
+    "no-loops"
   ],
   "extends": [
     "eslint:recommended",
     "plugin:@typescript-eslint/eslint-recommended",
     "plugin:@typescript-eslint/recommended"
   ],
-  "rules": {}
+  "rules": {
+    "no-console":"error",
+    "no-loops/no-loops": "error",
+    "array-callback-return": "error",
+    "no-undef": "error",
+    "no-undefined": "error",
+    "no-alert": "error",
+    "no-const-assign": "error",
+    "no-var": "error",
+    "no-delete-var": "error",
+    "no-unused-vars": "error",
+    "no-param-reassign": "error"
+  }
 }
