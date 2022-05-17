@@ -1,0 +1,15 @@
+{
+  "name": "functional-TS-config",
+  "version": "1.0.0",
+  "description": "Configurations for TypeScript that only allows for functional patterns",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
